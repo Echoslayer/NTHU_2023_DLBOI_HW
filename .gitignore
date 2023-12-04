@@ -1,0 +1,5 @@
+# 忽略所有扩展名为.pth的文件
+*.pth
+
+# 忽略名为desktop.ini的文件
+desktop.ini
