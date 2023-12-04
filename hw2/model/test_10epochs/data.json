@@ -1,0 +1,65 @@
+{
+    "test_10epochs": {
+        "1": {
+            "avg_train_loss": 0.4937325918674469,
+            "train_accuracy": 79.0,
+            "avg_val_loss": 0.32633044054875004,
+            "val_accuracy": 87.75
+        },
+        "2": {
+            "avg_train_loss": 0.2632374683022499,
+            "train_accuracy": 91.5,
+            "avg_val_loss": 0.2120980666233943,
+            "val_accuracy": 93.75
+        },
+        "3": {
+            "avg_train_loss": 0.1915582937002182,
+            "train_accuracy": 93.0625,
+            "avg_val_loss": 0.38504099888870347,
+            "val_accuracy": 83.25
+        },
+        "4": {
+            "avg_train_loss": 0.1580938132852316,
+            "train_accuracy": 94.5,
+            "avg_val_loss": 0.18414639882170236,
+            "val_accuracy": 93.0
+        },
+        "5": {
+            "avg_train_loss": 0.13575161039829253,
+            "train_accuracy": 94.9375,
+            "avg_val_loss": 0.7001931505779234,
+            "val_accuracy": 68.5
+        },
+        "6": {
+            "avg_train_loss": 0.11484837047755718,
+            "train_accuracy": 95.875,
+            "avg_val_loss": 0.4136344083011724,
+            "val_accuracy": 82.75
+        },
+        "7": {
+            "avg_train_loss": 0.10700684495270252,
+            "train_accuracy": 96.5625,
+            "avg_val_loss": 0.4413014278532221,
+            "val_accuracy": 81.5
+        },
+        "8": {
+            "avg_train_loss": 0.08963942876085639,
+            "train_accuracy": 97.0,
+            "avg_val_loss": 0.19668204294374356,
+            "val_accuracy": 92.0
+        },
+        "9": {
+            "avg_train_loss": 0.07835099950432778,
+            "train_accuracy": 97.5,
+            "avg_val_loss": 0.16111016316482654,
+            "val_accuracy": 94.25
+        },
+        "10": {
+            "avg_train_loss": 0.08566559202969075,
+            "train_accuracy": 96.6875,
+            "avg_val_loss": 0.21654470436848128,
+            "val_accuracy": 92.0
+        },
+        "Test accuracy": 75.0
+    }
+}

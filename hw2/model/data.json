@@ -1,0 +1,23 @@
+{
+    "test": {
+        "Test accuracy": 78.75,
+        "1": {
+            "avg_train_loss": 0.45354790925979616,
+            "train_accuracy": 80.375,
+            "avg_val_loss": 0.3087598062478579,
+            "val_accuracy": 90.25
+        },
+        "2": {
+            "avg_train_loss": 0.26347061127424243,
+            "train_accuracy": 91.125,
+            "avg_val_loss": 0.25338842146671736,
+            "val_accuracy": 90.75
+        },
+        "3": {
+            "avg_train_loss": 0.18612312242388726,
+            "train_accuracy": 93.5,
+            "avg_val_loss": 0.32738639930119884,
+            "val_accuracy": 87.0
+        }
+    }
+}
