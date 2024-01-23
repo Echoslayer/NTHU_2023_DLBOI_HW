@@ -1,0 +1,33 @@
+## install requirments
+
+pip install numpy==1.23.2
+pip install Pillow==8.3.1
+pip install scipy
+pip install matplotlib
+pip intall torch
+pip install torchvision
+pip install scikit_image
+pip install PyQt5
+pip install maxflow
+
+### install c++ Build Tools first: https://visualstudio.microsoft.com/zh-hant/visual-cpp-build-tools/
+pip install SimpleCRF
+pip install GeodisTK
+pip install opencv-python
+
+
+
+## trouble shooting
+
+### if no gpu, change controler.py
+model.load_state_dict(torch.load(self.model_path))
+--to-->
+model.load_state_dict(torch.load(self.model_path, map_location=torch.device('cpu')))
+
+### if np error change controller.py
+pred = np.zeros_like(self.img, dtype=np.float)
+--to-->
+pred = np.zeros_like(self.img, dtype=float)
+
+
+
